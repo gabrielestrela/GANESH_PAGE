@@ -1,0 +1,411 @@
+html,
+body {
+    background-color: rgba(0, 0, 0, 1);
+    height: 100%;
+}
+
+body{
+    position: relative;
+}
+
+/*
+.navbar{
+    min-height: 80px;
+}
+*/
+
+
+/*NAVBAR*/
+
+#mainNav {
+    font-family: 'Cabin', sans-serif;
+    color: white!important;
+/*    border-bottom: 1px solid rgba(0,0,0,0.9);*/
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.navbar {
+    padding: .5rem;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.shrinkNav{
+    padding: .2em;
+}
+
+.navbar-header a {
+    font-size: 24px;
+    color: white!important;
+}
+
+#hamburger-menu {
+    z-index: -1;
+}
+
+
+/*
+@media (max-width: 575px) .navbar-brand{
+    right: 500px;
+}
+*/
+
+.navbar-brand {
+    font-size: 24px;
+    color: white!important;
+    margin-right: 20rem;
+}
+
+.navbar-brand:hover {
+    color: #df2a62!important;
+}
+
+.nav-item a:hover {
+    color: #42dca3!important;
+}
+
+.navbar-toggler {
+    border: 1px solid white;
+    border-radius: .10rem;
+}
+
+.navbar-toggler:hover {
+    border: 1px solid #42dca3;
+}
+
+.navbar-toggler-right {
+    color: white;
+}
+
+.collapse.navbar-collapse .navbar-nav>li>a {
+    color: white!important;
+}
+
+.collapse.navbar-collapse .navbar-nav>li>a:hover {
+    color: #42dca3!important;
+}
+
+.intro-text {
+    font-size: 24px;
+    color: white;
+}
+
+
+/*NAVBAR*/
+
+
+/*INTRO*/
+
+#cover {
+    background: #2c2c2c url('../IMAGES/intro-bg.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 195px;
+    height: auto;
+    z-index: 1;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+#marginFix {
+    margin-top: 0;
+}
+
+
+.btn {
+    text-transform: uppercase;
+    font-family: 'Cabin', "Helvetica Neue";
+    Helvetica,
+    Arial,
+    sans-serif;
+    font-weight: 400;
+}
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    padding: 7px 0;
+    border: 2px solid white;
+    border-radius: 100%!important;
+    font-size: 26px;
+    color: white;
+    background: 0 0;
+    -webkit-transition: background-color .5s;
+    /* Safari */
+    -moz-transition: background-color .5s;
+    /* Safari */
+    -o-transition: background-color .5s;
+    /* Safari */
+    transition: background-color .5s;
+}
+
+.btn-circle:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.btn i {
+    color: white!important;
+}
+
+
+/*INTRO*/
+
+
+/*SOBRE*/
+
+#about .container {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#about h2 {
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+
+#about h2,
+p {
+    color: white!important;
+}
+
+#about p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#about p a {
+    color: #42dca3;
+    text-decoration: none;
+}
+
+#about .btns a {
+    border-radius: 0;
+    margin-top: 25px;
+}
+
+#about .btns a:visited,
+{
+    color: #42dca3;
+}
+
+#about .btns a:link,
+#about .btns a:visited{
+    color: #42dca3;
+}
+
+#about .btns a:hover{
+    color: black;
+}
+
+.btns > a{
+    margin-right: 10px;
+}
+
+.missaoModal .modal-content{
+    background-color: white !important;
+    border: 2px solid #42dca3;
+}
+
+.missaoModal .modal-footer .btn-secondary{
+    background-color: rgba(0,0,0,0);
+    color: #df2a62;
+    border: 2px solid #df2a62;
+}
+
+.missaoModal .modal-footer .btn-secondary:hover{
+    background-color: #df2a62;
+    color: white;
+}
+
+.missaoModal .modal-title{
+    color: #42dca3 !important;
+}
+
+.missaoModal .modal-body p {
+    color: black !important;
+    text-align: justify;
+}
+
+/*SOBRE*/
+
+
+/*PROJETOS*/
+
+#projects {
+    background: url(../IMAGES/downloads-bg.jpg) repeat-y center center scroll;
+    background-color: #000;
+    background-size: cover;
+    border: .5px solid rgba(255,255,255,0.4);
+}
+
+#projects .container {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#projects h2 {
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+
+#projects h2,
+p {
+    color: white!important;
+}
+
+.btn-outline-success {
+    color: #42dca3;
+    background-image: none;
+    background-color: transparent;
+    border-color: #42dca3;
+}
+
+#projects .btn {
+    border-radius: 0;
+}
+
+.btn-outline-success:hover {
+    background-color: #42dca3;
+    color: black;
+}
+
+#projects button {
+    margin-top: 20px;
+}
+
+.card {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-color: rgba(66, 220, 163, 0.3);
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-text {
+    color: white!important;
+}
+
+
+/*PROJETOS*/
+
+
+/*CONTATO*/
+
+#contact .container {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#contact h2 {
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+
+#contact h2,
+p{
+    color: white!important;
+}
+
+#contact p{
+    font-size: 18px;
+}
+
+#contact .fa{
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color: #42dca3!important;
+}
+
+#contact button:hover .fa-envelope:before{
+    color: black!important;
+}
+
+#contact button:hover .fa-github:before{
+    color: black!important;
+}
+
+#contact button:hover .fa-facebook:before{
+    color: black!important;
+}
+
+
+
+/*CONTATO*/
+
+/*LOCALIZACAO*/
+
+#mapsContainer{
+    position: relative;
+    width: 100%;
+}
+#map{
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 30px;
+    position: relative;
+}
+
+/*LOCALIZACAO*/
+
+/*FOOTER*/
+
+#footer .container-fluid{
+    padding-top: 1.5rem;
+}
+
+#footer p{
+    color: white!important;
+    font-size: 14px;
+    font-family: 'Cabin', sans-serif;
+}
+
+/*FOOTER*/
+
+
+/*IMAGE-FIX-SMALL-DEVICES*/
+@media (max-width: 575px){
+    #logo{
+        width: 97.5px;
+        height: 150px;
+        z-index: 1;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+}
+/*IMAGE-FIX-SMALL-DEVICES*/
