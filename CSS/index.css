@@ -198,6 +198,11 @@ p {
     text-decoration: none;
 }
 
+#projects p a {
+	color: #42dca3;
+    text-decoration: none;
+}
+
 #about .btns a {
     border-radius: 0;
     margin-top: 25px;
@@ -220,6 +225,8 @@ p {
 .btns > a{
     margin-right: 10px;
 }
+
+/*MODAL*/
 
 .missaoModal .modal-content{
     background-color: white !important;
@@ -246,7 +253,61 @@ p {
     text-align: justify;
 }
 
-/*SOBRE*/
+.membrosModal .modal-content{
+    background-color: rgba(0,0,0,100) !important;
+    border: 2px solid #42dca3;
+}
+
+.membrosModal .modal-footer .btn-secondary{
+    background-color: rgba(0,0,0,0);
+    color: #df2a62;
+    border: 2px solid #df2a62;
+}
+
+.membrosModal .modal-footer .btn-secondary:hover{
+    background-color: #df2a62;
+    color: white;
+}
+
+.membrosModal .modal-title{
+    color: #42dca3 !important;
+}
+
+.membrosModal .modal-body #info_tag{
+    color: white !important;
+	font-family: Consolas, monaco, monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px; 
+    #text-align: justify;
+}
+
+.membrosModal .modal-body #info_member{
+    color: #42dca3 !important;
+	font-family: Consolas, monaco, monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px; 
+    #text-align: justify;
+}
+
+
+.membrosModal .modal-body p {
+    #color: #42dca3 !important;
+    #text-align: justify;
+}
+
+.membrosModal .modal-body #foto {
+	border-width: 1px;
+	border-color: #42dca3;
+	border-style: solid;
+	#width: 200px;
+	#height: 150px;	
+}
 
 
 /*PROJETOS*/
@@ -301,12 +362,12 @@ p {
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
     border-color: rgba(66, 220, 163, 0.3);
 }
 
 .card:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(100, 100, 100, 0.5);
 }
 
 .card-text {
